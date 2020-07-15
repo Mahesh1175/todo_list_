@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(120deg,#e2c35d,#d88771); 
+    height: 100vh;
+    font-family: 'Rye', cursive;
+    text-align: center;
+    margin-top: 5%;
+  }
+  #name{
+    color: black;
+    margin-top: 4%;
+    text-align: center;
+    font-size: 332%;
+    font-family: algerian;
+  }
+  #textbox{
+    text-align: center;  
+   }
+ 
+ #todoValue{
+   height: 6.5vh;
+   width: 41%;
+   font-size: 18px;
+   font-family: 'Rye', cursive;
+   margin-bottom: 32px;
+   padding-left: 65px;
+   font-size: 21px
+ }
+ #but{
+  font-size: 20px;
+  color: black;
+  background-color: #d9d9d9;
+  width: 5%;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-left: 1px;
+  font-family: 'Rye', cursive;
+  padding: 9px; 
+ }
+#but:hover{
+ color: white;
+ background-color: green;
+}
+ ul li{
+ width: 44%;
+ cursor: pointer;
+ position: relative;
+ padding: 9px 12px 9px 40px;
+  background: #eee; 
+ font-size: 18px;
+ transition: 0.2s;
+ list-style-type: none;
+ margin-left: 22%;
+ margin-top: 5px;
+ height: 20px;
+ padding-left: 5vh;
+  }
+  ul li:hover{
+    transition: o.3s;
+    background-color: rgb(206, 192, 192);
+}
+ul li.checked {
+  background: rgb(181, 184, 184);
+  color: #000000;
+  text-decoration: line-through;
+}
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+.closeTag{
+  margin-left: 4%;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 16px 5px 16px;
+}
+ .closeTag:hover{
+
+   color: white;
+   background-color: red;
+ }
+
