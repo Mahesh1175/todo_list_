@@ -13,7 +13,9 @@ body{
     font-family: algerian;
   }
   #textbox{
-    text-align: center;
+    text-align: center;  
+  
+   
    }
  
  #todoValue{
@@ -24,6 +26,7 @@ body{
     font-size: 29px;
     background-color: transparent;
     font-family: 'Rye', cursive;
+   
  }
  #but{
   font-size: 20px;
@@ -75,6 +78,7 @@ ul li.checked::before {
   height: 15px;
   width: 7px;
 }
+
 .closeTag{
   margin-left: 4%;
   color: black;
@@ -91,3 +95,4 @@ ul li.checked::before {
    color: white;
    background-image: linear-gradient(120deg,rgb(212, 14, 14),rgb(216, 54, 54));
  }
+
